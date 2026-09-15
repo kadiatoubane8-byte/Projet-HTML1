@@ -1,16 +1,9 @@
-// ======================================================
-// 1. RÉCUPÉRER LES INFORMATIONS DU PROFESSEUR
-// ======================================================
+
 
 let nomProf = localStorage.getItem("nomProf");
 let matriculeProf = localStorage.getItem("matricule");
 let classeProf = localStorage.getItem("classe");
 let moduleProf = localStorage.getItem("module");
-
-
-// ======================================================
-// 2. AFFICHER LES INFORMATIONS
-// ======================================================
 
 if (nomProf) {
     document.getElementById("iden").textContent = nomProf;
@@ -29,29 +22,18 @@ if (nomProf) {
 }
 
 
-// ======================================================
-// 3. BOUTON DE SESSION
-// ======================================================
-
 document.getElementById("icone").innerHTML =
     "<i class='bi bi-play-fill'></i> Démarrer session";
 
 
-// ======================================================
-// 4. VARIABLES DU CHRONOMÈTRE
-// ======================================================
 
 let timerInterval;
 let timeLeft = 15 * 60;
 
 
-// ======================================================
-// 5. DÉMARRER UNE SESSION
-// ======================================================
-
 function startSession() {
 
-    // Vérifier qu'on connaît la classe et le module
+    
     if (!classeProf || !moduleProf || !nomProf) {
         alert("Informations du professeur manquantes.");
         return;
@@ -103,9 +85,7 @@ function startSession() {
         // Sauvegarder l'id de la session
         localStorage.setItem("sessionId", data.id);
 
-        // ==================================================
         // CRÉER LE QR CODE
-        // ==================================================
 
         document.getElementById("qrcode").innerHTML = "";
 
@@ -186,9 +166,8 @@ function startSession() {
 }
 
 
-// ======================================================
-// 6. ARRÊTER LA SESSION
-// ======================================================
+
+//ARRÊTER LA SESSION
 
 function stop() {
 
