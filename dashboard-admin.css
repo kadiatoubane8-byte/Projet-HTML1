@@ -1,0 +1,138 @@
+.navig{
+    background-color: rgb(122, 122, 202);
+}
+.navBox{
+    display: flex-end;
+   
+    align-items: center;
+}
+.linke{
+      color: white;
+}
+.title{
+    font-family:sans-serif;
+    color: rgb(46, 46, 126);
+    font: bold;
+}  
+.subtitle{
+    font-family:sans-serif;
+    color: rgb(114, 114, 169);
+
+} 
+
+.myBtn{
+    display: flex-end;  
+    margin-left:auto ;
+    background-color: rgb(185, 125, 241);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(43, 30, 56);
+    border: 2px whitesmoke solid;
+}
+.myBtn:hover{
+    background-color: rgb(205, 178, 231);
+}
+.titles{
+    font-family: sans-serif;
+    font: bold;
+    color: rgb(46, 46, 126);
+}
+.bttn{
+        background-color:rgb(230, 229, 229);
+         border: 2px rgb(230, 229, 229) solid;
+         font-family: sans-serif;
+        font: bold;
+         color: rgb(46, 46, 126);
+         border-radius: 5px;
+        
+}
+.bttn:hover{
+    background-color: rgb(185, 125, 241);
+}
+.choice{
+    border: 1px solid whitesmoke;
+    width: 300px;
+    background-color: rgb(230, 229, 229);
+}
+.addBtn{
+    background-color: rgb(185, 125, 241);
+    border: 2px rgb(230, 229, 229) solid;
+         font-family: sans-serif;
+        font: bold;
+         color: rgb(46, 46, 126);
+         border-radius: 5px;
+}
+.addBtn:hover{
+    background-color: rgb(123, 12, 226);
+}
+.parent{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.child{
+    width: 100%;
+    max-width: 500px; 
+    height: 100%;
+    max-height:  500px; ;
+}
+.parent2{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(221, 206, 235);
+}
+.child2{
+    background-color: snow;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    
+}
+.insBox{
+    display: flex-end;
+}
+.dashboard-content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.headBox{
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.statBox{
+    flex: 1;
+    min-width: 140px;
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.statBox p:first-child{
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.9;
+}
+.statBox p:last-child{
+    margin: 6px 0 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+.firstBox{ background-color: rgb(185, 125, 241); }
+.sndBox{ background-color: rgb(100, 140, 230); }
+.trdBox{ background-color: rgb(120, 190, 130); }
+table thead{
+    background-color: rgb(245, 244, 251);
+    color: rgb(46, 46, 126);
+}
+.table{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.statut-present{ color: rgb(120, 190, 130) !important; font-weight: 600; }
+.statut-absent{ color: rgb(217, 119, 87) !important; font-weight: 600; }
+.table-bordered > :not(caption) > * > * {
+  border-width: 0 var(--bs-border-width);
+}

@@ -1,0 +1,35 @@
+.bttn[data-role="etudiant"].role-actif {
+  background-color: rgb(120, 190, 130);
+  color: white;
+  border-color: rgb(120, 190, 130);
+}
+.bttn[data-role="prof"].role-actif {
+  background-color: rgb(100, 140, 230);
+  color: white;
+  border-color: rgb(100, 140, 230);
+}
+.bttn[data-role="admin"].role-actif {
+  background-color: rgb(185, 125, 241);
+  color: white;
+  border-color: rgb(185, 125, 241);
+}
+.bttn{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: white solid;
+    margin-bottom: 5px;
+}
+.parent{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(221, 206, 235);
+}
+
+.child{
+    width: 100%;
+    max-width: 500px; 
+    height: 100%;
+    max-height:  500px; 
+     background-color: snow;
+}
