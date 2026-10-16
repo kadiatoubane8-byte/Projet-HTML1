@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Presencia/Inscription</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="dashboard-admin.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="parent2">
+            <form class="child2 shadow container">
+                <h2 class="">Inscription</h2>
+                <div>
+                    <div>
+                      <label class="form-label" for="nom">Nom</label>
+                      <input class="form-control" type="text" id="nom">
+                    </div>
+                    <div>
+                      <label class="form-label" for="prenom">Prénom</label>
+                      <input class="form-control" type="text" id="prenom">
+                    </div>
+                    <div>
+                      <label class="form-label" for="email">Adresse mail</label>
+                      <input class="form-control" type="email" id="email">
+                    </div>
+                    <div>
+                      <label class="form-label" for="tel">Numéro de téléphone</label>
+                      <input class="form-control" type="tel" id="tel">
+                    </div>
+                    <div>
+                      <label class="form-label" for="nomEtablissement">Nom de l'établissement</label>
+                      <input class="form-control" type="text" id="nomEtablissement">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <button class="btn btn-dark" type="button" onclick="inscriptionAdmin()">S'inscrire</button>
+                        <button class="btn btn-outline-dark" type="reset">Annuler</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="admin-form.js"></script>
+    </body>
+</html>

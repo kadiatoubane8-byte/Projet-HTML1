@@ -1,0 +1,13 @@
+.parent2{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(221, 206, 235);
+}
+.child2{
+    background-color: snow;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    
+}
